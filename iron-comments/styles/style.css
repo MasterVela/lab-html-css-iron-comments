@@ -1,11 +1,29 @@
+* {
+    background-color: rgb(25, 33, 41);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
 body {
     padding: 0;
-    margin: 0;
+    margin: 0
     padding-top: 100px;
-    width: 100vw;    
+    width: auto;
 
 }
-
+input, textarea {
+    background-color: white;
+}
+button {
+    color: white;
+    background-color: rgb(67, 163, 230);
+    border: 0px;
+    border-radius: 30px;
+}
 #form-container {
-    margin: auto;
+    border: 3px solid rgb(67, 163, 230);
+    padding: 50px;
+    margin: 400px;
+    margin-left: 1090px;
+    margin-right: 1090px;
 }

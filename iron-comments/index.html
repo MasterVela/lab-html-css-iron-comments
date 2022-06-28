@@ -9,10 +9,24 @@
     
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
-<body>
 
+<body>
     <form id="form-container">
-        Name: Email: Comment: Receive email updates? Submit
+        <label for="name">Nombre: </label>
+        <br>
+        <input type="text" id="name">
+        <br>
+        <label for="email">Dirección mail: </label>
+        <br>
+        <input type="email" id="email">
+        <br>
+        <label for="comment">Comentarios: </label>
+        <br>
+        <textarea id="comment" name="comment" rows="4" cols="33"></textarea>
+        <br>
+        <span><i>Aceptas los terminos de uso?</i></span> <input type="checkbox" name="agreement" checked/>
+        <br>
+        <button>Validar</button>
     </form>
 
 </body>
